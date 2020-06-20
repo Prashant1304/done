@@ -1,0 +1,15 @@
+.paragraph{
+    color: whitesmoke;
+  }
+  
+  .image{
+    border-radius: 100%;
+  }
+  
+  .width{
+    margin: auto;
+    width: 50%;
+  }
+  .carousel .thumbs{
+    display: none;
+  }
