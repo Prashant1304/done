@@ -28,14 +28,6 @@ class App extends Component {
       <div>
         <h1><b>project1:-Addition Game</b></h1>
         <Addition/>
-        <h1><b>project2:-Baground Colour Changet</b></h1>
-        <Colour/>
-        <br/>
-        <br/>
-        <br/>
-        <br/>
-        <br/>
-        <br/>
         
         <h1><b>project3:-BMI Calculator</b></h1>
         <br/>
@@ -78,6 +70,15 @@ class App extends Component {
         <WordCount/>
         <h1><b>project22:-Alert Message</b></h1>
         <AlertMessage/>  
+        <h1><b>project2:-Baground Colour Changet</b></h1>
+        <Colour/>
+        <br/>
+        <br/>
+        <br/>
+        <br/>
+        <br/>
+        <br/>
+        
      </div>
       )
     }
