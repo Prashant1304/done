@@ -19,7 +19,7 @@ class App extends Component {
       <div>
        <p>Weight Converter (pounds to kg)</p>
        <p>Enter weight value in pounds:- </p>
-        <input value={this.state.value} placeholder="enter pound value" onChange={this.handleChange}></input>
+        <input type="number" value={this.state.value} placeholder="enter pound value" onChange={this.handleChange}></input>
         <button onClick={this.handleClick}>Calculate</button>    
        
        <p> kg:-  {this.state.final} </p>

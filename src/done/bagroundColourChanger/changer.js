@@ -13,7 +13,7 @@ handleColour = e => {
     return(
       <div style={{backgroundColor:this.state.colour}} className="baground">
         <p>Below enter your colour</p>
-        <input value={this.state.colour} onChange={this.handleColour} placeholder="Your colour please"></input>
+        <input value={this.state.colour} onChange={this.handleColour} placeholder="Please Enter Your Colour Here"></input>
       </div>
       )
     }

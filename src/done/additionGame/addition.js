@@ -43,7 +43,7 @@ class Addition extends Component {
     return(
       <div>
         <p> {this.state.ran1} + {this.state.ran2} = </p>
-        <input value={this.state.value} onChange={this.handleValue}></input>
+        <input value={this.state.value} type="number" onChange={this.handleValue}></input>
         
        <button onClick={this.handleutput} >Check</button> 
        <p> {this.state.output}  </p>

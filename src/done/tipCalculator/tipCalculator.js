@@ -51,11 +51,11 @@ import React,{Component} from "react"
           </div>
           <div>
           <p>How Much is your bill</p> 
-          <input type="text" onChange={this.handleChange} ></input>
+          <input type="number" onChange={this.handleChange} ></input>
           </div>
           <div>
             <p>How many people sharing the bill</p>
-            <input type="text" onChange={this.handleChange1} ></input>
+            <input type="number" onChange={this.handleChange1} ></input>
           </div>
           <div>
             <p>How much percent</p>

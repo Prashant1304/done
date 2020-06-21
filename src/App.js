@@ -70,6 +70,10 @@ class App extends Component {
         <WordCount/>
         <h1><b>project22:-Alert Message</b></h1>
         <AlertMessage/>  
+
+
+
+        
         <h1><b>project2:-Baground Colour Changet</b></h1>
         <Colour/>
         <br/>
