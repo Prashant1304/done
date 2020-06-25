@@ -1,32 +1,33 @@
 import React,{Component} from "react"
-import Addition from "./done/additionGame/addition"
 import './App.css';
-import Colour from "./done/bagroundColourChanger/changer"
-import Bmi from "./done/bmiCalculator/bmi"
-import Budget from "./done/budget app/budget"
-import Calculator from "./done/calculator/calculator"
-import Counter from "./done/counter/counter"
-import CourseForm from "./done/createCourseForm/courseForm"
-import Weeks from "./done/dayOfWeed/day"
-import DigitalClock from "./done/digitalClock/currentTime"
-import DropDown from "./done/dropdown/dropdown"
-import FlashCard from "./done/flashCard/flashCard"
-import Grocery from "./done/grocery/grosery"
-import LoneCalculator from "./done/loanCalculator/loan"
-import Quotes from "./done/quotes/quotes"
-import RandomPerson from "./done/random person/random"
-import SweetStore from "./done/sweetStore/sweet"
-import Testimonial from "./done/TESTIMONIALS/TESTIMONIALS"
-import TipCalculator from "./done/tipCalculator/tipCalculator"
-import ToDoist from "./done/todoist/todo"
-import WeightConversion from "./done/weightConversion(lb to kg)/conversion"
-import WordCount from "./done/wordCount project/count"
-import AlertMessage from "./done/alertMessage/alertMsg"
-class App extends Component {
+// import Addition from "./done/additionGame/addition"
+// import Colour from "./done/bagroundColourChanger/changer"
+// import Bmi from "./done/bmiCalculator/bmi"
+// import Budget from "./done/budget app/budget"
+// import Calculator from "./done/calculator/calculator"
+// import Counter from "./done/counter/counter"
+// import CourseForm from "./done/createCourseForm/courseForm"
+// import Weeks from "./done/dayOfWeed/day"
+// import DigitalClock from "./done/digitalClock/currentTime"
+// import DropDown from "./done/dropdown/dropdown"
+// import FlashCard from "./done/flashCard/flashCard"
+// import Grocery from "./done/grocery/grosery"
+// import LoneCalculator from "./done/loanCalculator/loan"
+// import Quotes from "./done/quotes/quotes"
+// import RandomPerson from "./done/random person/random"
+// import SweetStore from "./done/sweetStore/sweet"
+// import Testimonial from "./done/TESTIMONIALS/TESTIMONIALS"
+// import TipCalculator from "./done/tipCalculator/tipCalculator"
+// import ToDoist from "./done/todoist/todo"
+// import WeightConversion from "./done/weightConversion(lb to kg)/conversion"
+// import WordCount from "./done/wordCount project/count"
+// import AlertMessage from "./done/alertMessage/alertMsg"
+import Quiz from "./done/quiz/quiz"
+class App extends Component { 
   render() {
     return(
       <div>
-        <h1><b>project1:-Addition Game</b></h1>
+        {/* <h1><b>project1:-Addition Game</b></h1>
         <Addition/>
         
         <h1><b>project3:-BMI Calculator</b></h1>
@@ -69,14 +70,15 @@ class App extends Component {
         <h1><b>project21:-Word Count</b></h1>
         <WordCount/>
         <h1><b>project22:-Alert Message</b></h1>
-        <AlertMessage/>  
+        <AlertMessage/>   */}
+        <h1><b>project23:-Quiz</b></h1>
+          <Quiz/>
 
 
-
-        
+{/*         
         <h1><b>project2:-Baground Colour Changet</b></h1>
         <Colour/>
-        <br/>
+        <br/> */}
         <br/>
         <br/>
         <br/>
