@@ -1,5 +1,12 @@
 import React,{Component} from "react"
 import './App.css';
+import Attandance from "./done/attandance/attandance"
+// import Dice from "./done/diceGame/dice"
+// import RPC from "./done/RockPaperSce/RPC"
+// import Recipe from "./done/recipeApp/recipe"
+// import Converter from "./done/convert/converter"
+// import Timer from "./done/countDownTimer/timer" 
+// import Guess from "./done/numberGuessingGame/guessing";
 // import Addition from "./done/additionGame/addition"
 // import Colour from "./done/bagroundColourChanger/changer"
 // import Bmi from "./done/bmiCalculator/bmi"
@@ -22,7 +29,7 @@ import './App.css';
 // import WeightConversion from "./done/weightConversion(lb to kg)/conversion"
 // import WordCount from "./done/wordCount project/count"
 // import AlertMessage from "./done/alertMessage/alertMsg"
-import Quiz from "./done/quiz/quiz"
+// import Quiz from "./done/quiz/quiz"
 class App extends Component { 
   render() {
     return(
@@ -71,9 +78,21 @@ class App extends Component {
         <WordCount/>
         <h1><b>project22:-Alert Message</b></h1>
         <AlertMessage/>   */}
-        <h1><b>project23:-Quiz</b></h1>
-          <Quiz/>
-
+        {/* <h1><b>project23:-Quiz</b></h1>
+          <Quiz/> */}
+        {/* <h1><b>project24:-CountDown Timer</b></h1>
+          <Timer/> */}
+        {/* <h1><b>project25:-Number Guess Game</b></h1>
+          <Guess/> */}
+        {/* <h1><b>project26:Height Converter </b></h1>
+          <Converter/> */}
+        {/* <h1><b>project26:Recipie </b></h1>
+          <Recipe/> */}
+        {/* <h1><b>project27:rock paper scessor </b></h1>
+          <RPC/> */}
+         {/* <h1><b>project27:Dice Game </b></h1>  */}
+          <Attandance/>
+          
 
 {/*         
         <h1><b>project2:-Baground Colour Changet</b></h1>
