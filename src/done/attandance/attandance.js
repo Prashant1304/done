@@ -46,7 +46,7 @@ handleSubmit = e => {
               <div>
               
               </div> */}
-              {[this.state.nameData,this.state.rollnoData].map((x,y)=>{
+              {[this.state.rollnoData,this.state.nameData].map((x,y)=>{
                   return <div key={y}> 
                     {x}
                   </div>
