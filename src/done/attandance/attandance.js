@@ -22,8 +22,8 @@ hnadleName= e => {
 }
 handleSubmit = e => {
     e.preventDefault() 
-    this.setState({ nameData:[...this.state.nameData,this.state.name]})
-    this.setState({ rollnoData:[...this.state.rollnoData,this.state.rollno]})
+    this.setState({ nameData:[this.state.name]})
+    this.setState({ rollnoData:[this.state.rollno]})
     this.setState({all:[this.state.nameData,this.state.rollnoData]})
     this.setState({name:""})
     this.setState({rollno:""})
@@ -46,13 +46,13 @@ handleSubmit = e => {
               <div>
               
               </div> */}
-              {[this.state.rollnoData,this.state.nameData].map((x,y)=>{
+              {/* {[this.state.rollnoData,this.state.nameData].map((x,y)=>{
                   return <div key={y}> 
-                    {x}
+                  <p> <br/> {x}  </p>
                   </div>
               })}
-              <p></p>
-            {/* <p>  {this.state.rollnoData}  {this.state.nameData} </p> */}
+              <p></p> */}
+            <p>  {this.state.rollnoData},  {this.state.nameData} </p>
               
           </div>
       </div>
