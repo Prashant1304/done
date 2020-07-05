@@ -1,6 +1,7 @@
 import React,{Component} from "react"
 import './App.css';
-import Attandance from "./done/attandance/attandance"
+// import Magic from "./done/magicBall/magicBall"
+// import Attandance from "./done/attandance/attandance"
 // import Dice from "./done/diceGame/dice"
 // import RPC from "./done/RockPaperSce/RPC"
 // import Recipe from "./done/recipeApp/recipe"
@@ -30,6 +31,7 @@ import Attandance from "./done/attandance/attandance"
 // import WordCount from "./done/wordCount project/count"
 // import AlertMessage from "./done/alertMessage/alertMsg"
 // import Quiz from "./done/quiz/quiz"
+
 class App extends Component { 
   render() {
     return(
@@ -90,9 +92,15 @@ class App extends Component {
           <Recipe/> */}
         {/* <h1><b>project27:rock paper scessor </b></h1>
           <RPC/> */}
-         {/* <h1><b>project27:Dice Game </b></h1>  */}
-          <Attandance/>
-          
+         {/* <h1><b>project28:Dice Game </b></h1> 
+          <Dice/> */}
+        <h1><b>project29:audio and video </b></h1> 
+        {/* <h1><b>project30:Magic Eight Ball </b></h1> 
+            <Magic/> */}
+        <h1><b>project31:Word Scramble </b></h1> 
+        
+
+        
 
 {/*         
         <h1><b>project2:-Baground Colour Changet</b></h1>

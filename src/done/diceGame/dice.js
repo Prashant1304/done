@@ -19,9 +19,11 @@ state= {
         this.setState({dice1:[Math.floor(Math.random()*6)]})
         this.setState({dice2:[Math.floor(Math.random()*6)]})
         if(this.state.dice1<this.state.dice2) {
-          return  this.setState({result:[this.state.player2,"won"]})
+          return  this.setState({result:[this.state.player1,"won"]})
         } else if (this.state.dice2<this.state.dice1) {
-            return this.setState({result:[this.state.player1,"won"]})
+            return this.setState({result:[this.state.player2,"won"]})
+        } else if (this.state.dice1==this.state.dice2) {
+            return this.setState({result:"draw"})
         } else {
             return this.setState({result:"some thing is wrong"})
         }
