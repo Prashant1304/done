@@ -1,5 +1,6 @@
 import React,{Component} from "react"
 import './App.css';
+import Dealership from "./done/car/dealership"
 // import Magic from "./done/magicBall/magicBall"
 // import Attandance from "./done/attandance/attandance"
 // import Dice from "./done/diceGame/dice"
@@ -88,18 +89,16 @@ class App extends Component {
           <Guess/> */}
         {/* <h1><b>project26:Height Converter </b></h1>
           <Converter/> */}
-        {/* <h1><b>project26:Recipie </b></h1>
+        {/* <h1><b>project27:Recipie </b></h1>
           <Recipe/> */}
-        {/* <h1><b>project27:rock paper scessor </b></h1>
+        {/* <h1><b>project28:rock paper scessor </b></h1>
           <RPC/> */}
-         {/* <h1><b>project28:Dice Game </b></h1> 
+         {/* <h1><b>project29:Dice Game </b></h1> 
           <Dice/> */}
-        <h1><b>project29:audio and video </b></h1> 
         {/* <h1><b>project30:Magic Eight Ball </b></h1> 
             <Magic/> */}
-        <h1><b>project31:Word Scramble </b></h1> 
-        
-
+        <h1><b>project30:Car Dealership </b></h1> 
+            <Dealership/> 
         
 
 {/*         
