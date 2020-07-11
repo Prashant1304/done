@@ -1,6 +1,6 @@
 import React,{Component} from "react"
 import './App.css';
-import Dealership from "./done/car/dealership"
+import Dealership from "./done/car/render"
 // import Magic from "./done/magicBall/magicBall"
 // import Attandance from "./done/attandance/attandance"
 // import Dice from "./done/diceGame/dice"
